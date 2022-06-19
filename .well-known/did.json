@@ -1,1 +1,48 @@
-{"id":"did:web:www.vladdesigns.org","@context":["https://www.w3.org/ns/did/v1",{"@base":"did:web:www.vladdesigns.org"}],"service":[{"id":"#linkeddomains","type":"LinkedDomains","serviceEndpoint":{"origins":["https://www.vladdesigns.org/"]}},{"id":"#hub","type":"IdentityHub","serviceEndpoint":{"instances":["https://beta.hub.msidentity.com/v1.0/8587411f-40f4-415a-9242-f9b18127ed88"]}}],"verificationMethod":[{"id":"#ea5320df17594cc6b4b20512300e4f89vcSigningKey-e89ee","controller":"did:web:www.vladdesigns.org","type":"EcdsaSecp256k1VerificationKey2019","publicKeyJwk":{"crv":"secp256k1","kty":"EC","x":"XZYruvKEKaKjWi9pjDsg0LIF7MHSdDAPwptAEOygJF4","y":"Cj4yZmKov8BY69R3qtoHGwKk1fVmNmIYiKxivguWcfU"}}],"authentication":["#ea5320df17594cc6b4b2051230f0e4f89vcSigningKey-e89ee"],"assertionMethod":["#ea5320df17594cc6b4b20512300e4f89vcSigningKey-e89ee"]}
+{
+  "id": "did:web:www.vladdesigns.org",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:www.vladdesigns.org"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://www.vladdesigns.org/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://beta.hub.msidentity.com/v1.0/8587411f-40f4-415a-9242-f9b18127ed88"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#ea5320df17594cc6b4b20512300e4f89vcSigningKey-e89ee",
+      "controller": "did:web:www.vladdesigns.org",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "XZYruvKEKaKjWi9pjDsg0LIF7MHSdDAPwptAEOygJF4",
+        "y": "Cj4yZmKov8BY69R3qtoHGwKk1fVmNmIYiKxivguWcfU"
+      }
+    }
+  ],
+  "authentication": [
+    "#ea5320df17594cc6b4b20512300e4f89vcSigningKey-e89ee"
+  ],
+  "assertionMethod": [
+    "#ea5320df17594cc6b4b20512300e4f89vcSigningKey-e89ee"
+  ]
+}
